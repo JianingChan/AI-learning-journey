@@ -1,26 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My AI Learning Library</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Learning Journey</title>
+  <link rel="stylesheet" href="styles.css"> <!-- 如果你将 CSS 放在单独的文件 -->
+  <style>
+    /* 将上述 CSS 代码粘贴到这里，或者直接使用外部 CSS 文件 */
+  </style>
 </head>
 <body>
-    <h1>AI Learning Library</h1>
 
-    <!-- Tab Navigation -->
-    <div class="tabs">
-        <button class="tab-button" onclick="loadContent('content/topic1.html')">Topic 1</button>
-        <button class="tab-button" onclick="loadContent('content/topic2.html')">Topic 2</button>
-        <button class="tab-button" onclick="loadContent('content/topic3.html')">Topic 3</button>
+  <div class="grid-container">
+    <!-- 左侧目录 -->
+    <div class="sidebar">
+      <h2>目录</h2>
+      <ul>
+        <li><a href="#section1">章节 1</a></li>
+        <li><a href="#section2">章节 2</a></li>
+        <li><a href="#section3">章节 3</a></li>
+      </ul>
     </div>
 
-    <!-- Content Area -->
-    <div id="content-area">
-        <p>Select a topic to view the content.</p>
-    </div>
+    <!-- 右侧内容 -->
+    <div class="content">
+      <h2 id="section1">章节 1</h2>
+      <p>这里是章节 1 的内容...</p>
 
-    <script src="script.js"></script>
+      <h2 id="section2">章节 2</h2>
+      <p>这里是章节 2 的内容...</p>
+
+      <h2 id="section3">章节 3</h2>
+      <p>这里是章节 3 的内容...</p>
+    </div>
+  </div>
+
 </body>
 </html>
