@@ -9,12 +9,16 @@ body {
 }
 
 .tab-button {
-    padding: 10px 15px;
-    margin: 5px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
+    background-color: #4CAF50; /* 背景色 */
+    color: white; /* 文字颜色 */
+    border: none; /* 去掉边框 */
+    padding: 15px 32px; /* 内边距 */
+    text-align: center; /* 文字居中 */
+    text-decoration: none; /* 去掉文字下划线 */
+    display: inline-block; /* 使按钮不换行 */
+    font-size: 16px; /* 字体大小 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+    border-radius: 8px; /* 圆角 */
 }
 
 .tab-button:hover {
